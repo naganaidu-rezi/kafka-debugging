@@ -27,6 +27,10 @@ Steps to resolve :
 
 After enabling JMX metrics and not able to see those metrics may be it is blocked by local iptables
 
+JMX enable locations:
+
+vi /etc/systemd/system/confluent-kafka.service.d/override.conf
+
 use the following command
 
 ```

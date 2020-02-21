@@ -20,3 +20,17 @@ Steps to resolve :
    systemctl start confluent-kafka
    ```
 ```
+
+
+
+
+
+After enabling JMX metrics and not able to see those metrics may be it is blocked by local iptables
+
+use the following command
+
+```
+iptables -F
+```
+
+
